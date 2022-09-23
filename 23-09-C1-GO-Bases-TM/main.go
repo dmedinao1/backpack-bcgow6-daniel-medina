@@ -4,10 +4,10 @@ import "fmt"
 
 func main() {
 	// Ejercicio 1 - Imprimí tu nombre
-	var nombre = "Daniel Medina"
+	var nombre1 = "Daniel Medina"
 	direccion := "Calle 75a sur, Bogotá"
 
-	fmt.Println("Nombre: ", nombre, "Dirección: ", direccion)
+	fmt.Println("Nombre: ", nombre1, "Dirección: ", direccion)
 
 	// Ejercicio 2 - Clima
 	var temperatura float32 = 8.5
