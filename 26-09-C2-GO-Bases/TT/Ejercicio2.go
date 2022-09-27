@@ -51,7 +51,7 @@ func (m Matrix) Print() {
 	}
 }
 
-func (m Matrix) Set(values ...float64) error {
+func (m *Matrix) Set(values ...float64) error {
 	if matrixCapacity := m.Height * m.Width; len(values) > matrixCapacity {
 		return errors.New("La matriz no tiene capacidad suficiente")
 	}
@@ -76,7 +76,7 @@ func (m Matrix) Set(values ...float64) error {
 func main() {
 	myMatrix := Matrix{}
 	myMatrix.Init(3, 3)
-	err := myMatrix.Set(1, 2, 3, 4, 5, 6)
+	err := myMatrix.Set(1, 2, 3, 4, 5, 6, 7, 8, 9)
 
 	if err != nil {
 		fmt.Println(err)
