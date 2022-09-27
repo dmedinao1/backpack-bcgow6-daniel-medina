@@ -20,7 +20,7 @@ type Matrix struct {
 	Width  int
 }
 
-func (m Matrix) Init(height, widht int) {
+func (m *Matrix) Init(height, widht int) {
 	m.Height = height
 	m.Width = widht
 
