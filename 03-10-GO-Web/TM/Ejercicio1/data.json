@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "transactionCode": "TC1",
+    "currency": "USD",
+    "quantity": 134.1,
+    "transmitter": "Central Bank",
+    "transactionDate": "2022-10-03T13:40:19.087Z"
+  },
+  {
+    "id": 2,
+    "transactionCode": "TC2",
+    "currency": "COP",
+    "quantity": 123234.2,
+    "transmitter": "City Bank",
+    "transactionDate": "2022-10-03T13:45:02.852Z"
+  }
+
+]
