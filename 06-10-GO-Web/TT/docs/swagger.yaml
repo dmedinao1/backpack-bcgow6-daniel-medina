@@ -1,4 +1,14 @@
 definitions:
+  server.codeAndQuantityRequest:
+    properties:
+      quantity:
+        type: number
+      transactionCode:
+        type: string
+    required:
+    - quantity
+    - transactionCode
+    type: object
   server.fullTransactionRequest:
     properties:
       currency:
@@ -62,7 +72,115 @@ paths:
             $ref: '#/definitions/web.ApiResponse'
       summary: Obtiene todas las transacciones
   /transacciones/{id}:
+    delete:
+      consumes:
+      - application/json
+      description: Elimina una transacción por su id
+      parameters:
+      - description: Token de autorización
+        in: header
+        name: token
+        required: true
+        type: string
+      - description: Id de la transacción a eliminar
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Objeto con el número de id de la transacción eliminada
+          schema:
+            $ref: '#/definitions/web.ApiResponse'
+        "400":
+          description: Parámetros de entrada inválidos
+          schema:
+            $ref: '#/definitions/web.ApiResponse'
+        "404":
+          description: Transacción no encontrada
+          schema:
+            $ref: '#/definitions/web.ApiResponse'
+        "500":
+          description: Error interno de la aplicación
+          schema:
+            $ref: '#/definitions/web.ApiResponse'
+      summary: Elimina una transacción
+    patch:
+      consumes:
+      - application/json
+      description: Actualiza el código y el monto de la transacción
+      parameters:
+      - description: Token de autorización
+        in: header
+        name: token
+        required: true
+        type: string
+      - description: Id de la transacción a actualizar
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: Objeto con el nuevo código y la nueva cantidad
+        in: body
+        name: transacción
+        required: true
+        schema:
+          $ref: '#/definitions/server.codeAndQuantityRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Objeto con el nuevo código y la nueva cantidad
+          schema:
+            $ref: '#/definitions/web.ApiResponse'
+        "400":
+          description: Parámetros de entrada inválidos
+          schema:
+            $ref: '#/definitions/web.ApiResponse'
+        "404":
+          description: Transacción no encontrada
+          schema:
+            $ref: '#/definitions/web.ApiResponse'
+        "500":
+          description: Error interno de la aplicación
+          schema:
+            $ref: '#/definitions/web.ApiResponse'
+      summary: Actualiza una transacción
     post:
+      consumes:
+      - application/json
+      description: Guarda una nueva transacción
+      parameters:
+      - description: Token de autorización
+        in: header
+        name: token
+        required: true
+        type: string
+      - description: Transacción a reemplazar
+        in: body
+        name: transacción
+        required: true
+        schema:
+          $ref: '#/definitions/server.fullTransactionRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Objeto con la transacción guardada
+          schema:
+            $ref: '#/definitions/web.ApiResponse'
+        "400":
+          description: Parámetros de entrada inválidos
+          schema:
+            $ref: '#/definitions/web.ApiResponse'
+        "500":
+          description: Error interno de la aplicación
+          schema:
+            $ref: '#/definitions/web.ApiResponse'
+      summary: Guarda una nueva transacción
+    put:
       consumes:
       - application/json
       description: Reemplaza la transacción

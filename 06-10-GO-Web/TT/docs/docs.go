@@ -60,7 +60,7 @@ const docTemplate = `{
             }
         },
         "/transacciones/{id}": {
-            "post": {
+            "put": {
                 "description": "Reemplaza la transacción",
                 "consumes": [
                     "application/json"
@@ -120,10 +120,186 @@ const docTemplate = `{
                         }
                     }
                 }
+            },
+            "post": {
+                "description": "Guarda una nueva transacción",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "summary": "Guarda una nueva transacción",
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "Token de autorización",
+                        "name": "token",
+                        "in": "header",
+                        "required": true
+                    },
+                    {
+                        "description": "Transacción a reemplazar",
+                        "name": "transacción",
+                        "in": "body",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/server.fullTransactionRequest"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Objeto con la transacción guardada",
+                        "schema": {
+                            "$ref": "#/definitions/web.ApiResponse"
+                        }
+                    },
+                    "400": {
+                        "description": "Parámetros de entrada inválidos",
+                        "schema": {
+                            "$ref": "#/definitions/web.ApiResponse"
+                        }
+                    },
+                    "500": {
+                        "description": "Error interno de la aplicación",
+                        "schema": {
+                            "$ref": "#/definitions/web.ApiResponse"
+                        }
+                    }
+                }
+            },
+            "delete": {
+                "description": "Elimina una transacción por su id",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "summary": "Elimina una transacción",
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "Token de autorización",
+                        "name": "token",
+                        "in": "header",
+                        "required": true
+                    },
+                    {
+                        "type": "integer",
+                        "description": "Id de la transacción a eliminar",
+                        "name": "id",
+                        "in": "path",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Objeto con el número de id de la transacción eliminada",
+                        "schema": {
+                            "$ref": "#/definitions/web.ApiResponse"
+                        }
+                    },
+                    "400": {
+                        "description": "Parámetros de entrada inválidos",
+                        "schema": {
+                            "$ref": "#/definitions/web.ApiResponse"
+                        }
+                    },
+                    "404": {
+                        "description": "Transacción no encontrada",
+                        "schema": {
+                            "$ref": "#/definitions/web.ApiResponse"
+                        }
+                    },
+                    "500": {
+                        "description": "Error interno de la aplicación",
+                        "schema": {
+                            "$ref": "#/definitions/web.ApiResponse"
+                        }
+                    }
+                }
+            },
+            "patch": {
+                "description": "Actualiza el código y el monto de la transacción",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "summary": "Actualiza una transacción",
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "Token de autorización",
+                        "name": "token",
+                        "in": "header",
+                        "required": true
+                    },
+                    {
+                        "type": "integer",
+                        "description": "Id de la transacción a actualizar",
+                        "name": "id",
+                        "in": "path",
+                        "required": true
+                    },
+                    {
+                        "description": "Objeto con el nuevo código y la nueva cantidad",
+                        "name": "transacción",
+                        "in": "body",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/server.codeAndQuantityRequest"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Objeto con el nuevo código y la nueva cantidad",
+                        "schema": {
+                            "$ref": "#/definitions/web.ApiResponse"
+                        }
+                    },
+                    "400": {
+                        "description": "Parámetros de entrada inválidos",
+                        "schema": {
+                            "$ref": "#/definitions/web.ApiResponse"
+                        }
+                    },
+                    "404": {
+                        "description": "Transacción no encontrada",
+                        "schema": {
+                            "$ref": "#/definitions/web.ApiResponse"
+                        }
+                    },
+                    "500": {
+                        "description": "Error interno de la aplicación",
+                        "schema": {
+                            "$ref": "#/definitions/web.ApiResponse"
+                        }
+                    }
+                }
             }
         }
     },
     "definitions": {
+        "server.codeAndQuantityRequest": {
+            "type": "object",
+            "required": [
+                "quantity",
+                "transactionCode"
+            ],
+            "properties": {
+                "quantity": {
+                    "type": "number"
+                },
+                "transactionCode": {
+                    "type": "string"
+                }
+            }
+        },
         "server.fullTransactionRequest": {
             "type": "object",
             "required": [
