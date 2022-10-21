@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f2108b9-a23c-4837-b849-120b3e9814ca" name="Changes" comment="19-10-2022-TT">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    <list default="true" id="4f2108b9-a23c-4837-b849-120b3e9814ca" name="Changes" comment="20-10-2022-TM">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +19,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file:///opt/homebrew/Cellar/go/1.19.1/libexec" />
+  <component name="GOROOT" url="file:///opt/homebrew/Cellar/go/1.19.2/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -47,79 +47,92 @@
     "WebServerToolWindowFactoryState": "false",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/Users/danmedina/Documents/github/backpack-bcgow6-daniel-medina/20-10-Testing/TM"
+    "last_opened_file_path": "/Users/danmedina/Documents/github/backpack-bcgow6-daniel-medina/21-10-Testing/TM"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="GoMoveDeclarationDialog.RECENT_KEY">
+      <recent name="$PROJECT_DIR$/21-10-Testing/TM/internal/mocks" />
+      <recent name="$PROJECT_DIR$/21-10-Testing/TM/internal/domain" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/21-10-Testing/TM" />
+      <recent name="$PROJECT_DIR$/20-10-Testing/TT" />
       <recent name="$PROJECT_DIR$/20-10-Testing/TM" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/21-10-Testing/TM/internal" />
+      <recent name="$PROJECT_DIR$/21-10-Testing/TM/test/internal" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
-  <component name="RunManager" selected="Go Test.Test_transactionRepository_Replace in github.com/dmedinao1/go-web-practica/internal">
-    <configuration name="TestDivide in github.com/dmedinao1/ejercicio-TT-19-10" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.go test github.com/dmedinao1/go-web-practica/internal">
+    <configuration name="Test_transactionService_DeleteById in github.com/dmedinao1/go-web-practica/internal" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="backpack-bcgow6-daniel-medina" />
-      <working_directory value="$PROJECT_DIR$/19-10-Testing/TT" />
-      <kind value="PACKAGE" />
-      <package value="github.com/dmedinao1/ejercicio-TT-19-10" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestDivide\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestSort in github.com/dmedinao1/ejercicio-TT-19-10" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="backpack-bcgow6-daniel-medina" />
-      <working_directory value="$PROJECT_DIR$/19-10-Testing/TT" />
-      <kind value="PACKAGE" />
-      <package value="github.com/dmedinao1/ejercicio-TT-19-10" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestSort\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestSubtract in github.com/dmedinao1/ejercicio-TT-19-10" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="backpack-bcgow6-daniel-medina" />
-      <working_directory value="$PROJECT_DIR$/19-10-Testing/TT" />
-      <kind value="PACKAGE" />
-      <package value="github.com/dmedinao1/ejercicio-TT-19-10" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestSubtract\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test_transactionRepository_FindAll in github.com/dmedinao1/go-web-practica/internal" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="backpack-bcgow6-daniel-medina" />
-      <working_directory value="$PROJECT_DIR$/20-10-Testing/TM/internal" />
-      <root_directory value="$PROJECT_DIR$/20-10-Testing/TM" />
+      <working_directory value="$PROJECT_DIR$/20-10-Testing/TT/internal" />
+      <root_directory value="$PROJECT_DIR$/20-10-Testing/TT" />
       <kind value="PACKAGE" />
       <package value="github.com/dmedinao1/go-web-practica/internal" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_transactionRepository_FindAll\E$" />
+      <pattern value="^\QTest_transactionService_DeleteById\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_transactionRepository_Replace in github.com/dmedinao1/go-web-practica/internal" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_transactionService_FindAll in github.com/dmedinao1/go-web-practica/internal" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="backpack-bcgow6-daniel-medina" />
-      <working_directory value="$PROJECT_DIR$/20-10-Testing/TM/internal" />
-      <root_directory value="$PROJECT_DIR$/20-10-Testing/TM" />
+      <working_directory value="$PROJECT_DIR$/21-10-Testing/TM/internal" />
+      <root_directory value="$PROJECT_DIR$/21-10-Testing/TM" />
       <kind value="PACKAGE" />
       <package value="github.com/dmedinao1/go-web-practica/internal" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_transactionRepository_Replace\E$" />
+      <pattern value="^\QTest_transactionService_FindAll\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_transactionService_ReplaceTransaction in github.com/dmedinao1/go-web-practica/internal" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="backpack-bcgow6-daniel-medina" />
+      <working_directory value="$PROJECT_DIR$/21-10-Testing/TM/internal" />
+      <root_directory value="$PROJECT_DIR$/21-10-Testing/TM" />
+      <kind value="PACKAGE" />
+      <package value="github.com/dmedinao1/go-web-practica/internal" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTest_transactionService_ReplaceTransaction\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_transactionService_SaveTransaction in github.com/dmedinao1/go-web-practica/internal" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="backpack-bcgow6-daniel-medina" />
+      <working_directory value="$PROJECT_DIR$/21-10-Testing/TM/internal" />
+      <root_directory value="$PROJECT_DIR$/21-10-Testing/TM" />
+      <kind value="PACKAGE" />
+      <package value="github.com/dmedinao1/go-web-practica/internal" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTest_transactionService_SaveTransaction\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test github.com/dmedinao1/go-web-practica/internal" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="backpack-bcgow6-daniel-medina" />
+      <working_directory value="$PROJECT_DIR$/21-10-Testing/TM/internal" />
+      <root_directory value="$PROJECT_DIR$/21-10-Testing/TM" />
+      <kind value="PACKAGE" />
+      <package value="github.com/dmedinao1/go-web-practica/internal" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.Test_transactionRepository_Replace in github.com/dmedinao1/go-web-practica/internal" />
-        <item itemvalue="Go Test.Test_transactionRepository_FindAll in github.com/dmedinao1/go-web-practica/internal" />
-        <item itemvalue="Go Test.TestDivide in github.com/dmedinao1/ejercicio-TT-19-10" />
-        <item itemvalue="Go Test.TestSort in github.com/dmedinao1/ejercicio-TT-19-10" />
-        <item itemvalue="Go Test.TestSubtract in github.com/dmedinao1/ejercicio-TT-19-10" />
+        <item itemvalue="Go Test.go test github.com/dmedinao1/go-web-practica/internal" />
+        <item itemvalue="Go Test.Test_transactionService_ReplaceTransaction in github.com/dmedinao1/go-web-practica/internal" />
+        <item itemvalue="Go Test.Test_transactionService_SaveTransaction in github.com/dmedinao1/go-web-practica/internal" />
+        <item itemvalue="Go Test.Test_transactionService_FindAll in github.com/dmedinao1/go-web-practica/internal" />
+        <item itemvalue="Go Test.Test_transactionService_DeleteById in github.com/dmedinao1/go-web-practica/internal" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +154,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="19-10-2022-TM" />
     <MESSAGE value="19-10-2022-TT" />
-    <option name="LAST_COMMIT_MESSAGE" value="19-10-2022-TT" />
+    <MESSAGE value="20-10-2022-TM" />
+    <option name="LAST_COMMIT_MESSAGE" value="20-10-2022-TM" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
