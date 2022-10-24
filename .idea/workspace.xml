@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f2108b9-a23c-4837-b849-120b3e9814ca" name="Changes" comment="20-10-2022-TM">
+    <list default="true" id="4f2108b9-a23c-4837-b849-120b3e9814ca" name="Changes" comment="21-10-2022-TM">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +47,8 @@
     "WebServerToolWindowFactoryState": "false",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/Users/danmedina/Documents/github/backpack-bcgow6-daniel-medina/21-10-Testing/TM"
+    "last_opened_file_path": "/Users/danmedina/Documents/github/backpack-bcgow6-daniel-medina/21-10-Testing",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -56,6 +57,7 @@
       <recent name="$PROJECT_DIR$/21-10-Testing/TM/internal/domain" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/21-10-Testing" />
       <recent name="$PROJECT_DIR$/21-10-Testing/TM" />
       <recent name="$PROJECT_DIR$/20-10-Testing/TT" />
       <recent name="$PROJECT_DIR$/20-10-Testing/TM" />
@@ -66,53 +68,38 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.go test github.com/dmedinao1/go-web-practica/internal">
-    <configuration name="Test_transactionService_DeleteById in github.com/dmedinao1/go-web-practica/internal" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.go test github.com/dmedinao1/go-web-practica/tests">
+    <configuration name="go build github.com/dmedinao1/go-web-practica/cmd" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="backpack-bcgow6-daniel-medina" />
-      <working_directory value="$PROJECT_DIR$/20-10-Testing/TT/internal" />
-      <root_directory value="$PROJECT_DIR$/20-10-Testing/TT" />
+      <working_directory value="$PROJECT_DIR$/21-10-Testing/TT" />
       <kind value="PACKAGE" />
-      <package value="github.com/dmedinao1/go-web-practica/internal" />
+      <package value="github.com/dmedinao1/go-web-practica/cmd" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTest_transactionService_DeleteById\E$" />
+      <filePath value="$PROJECT_DIR$/21-10-Testing/TT/cmd/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_transactionService_FindAll in github.com/dmedinao1/go-web-practica/internal" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_Delete_OK in github.com/dmedinao1/go-web-practica/tests" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="backpack-bcgow6-daniel-medina" />
-      <working_directory value="$PROJECT_DIR$/21-10-Testing/TM/internal" />
-      <root_directory value="$PROJECT_DIR$/21-10-Testing/TM" />
+      <working_directory value="$PROJECT_DIR$/21-10-Testing/TT/tests" />
+      <root_directory value="$PROJECT_DIR$/21-10-Testing/TT" />
       <kind value="PACKAGE" />
-      <package value="github.com/dmedinao1/go-web-practica/internal" />
+      <package value="github.com/dmedinao1/go-web-practica/tests" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_transactionService_FindAll\E$" />
+      <pattern value="^\QTest_Delete_OK\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_transactionService_ReplaceTransaction in github.com/dmedinao1/go-web-practica/internal" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_Update_OK in github.com/dmedinao1/go-web-practica/tests" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="backpack-bcgow6-daniel-medina" />
-      <working_directory value="$PROJECT_DIR$/21-10-Testing/TM/internal" />
-      <root_directory value="$PROJECT_DIR$/21-10-Testing/TM" />
+      <working_directory value="$PROJECT_DIR$/21-10-Testing/TT/tests" />
+      <root_directory value="$PROJECT_DIR$/21-10-Testing/TT" />
       <kind value="PACKAGE" />
-      <package value="github.com/dmedinao1/go-web-practica/internal" />
+      <package value="github.com/dmedinao1/go-web-practica/tests" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_transactionService_ReplaceTransaction\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test_transactionService_SaveTransaction in github.com/dmedinao1/go-web-practica/internal" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="backpack-bcgow6-daniel-medina" />
-      <working_directory value="$PROJECT_DIR$/21-10-Testing/TM/internal" />
-      <root_directory value="$PROJECT_DIR$/21-10-Testing/TM" />
-      <kind value="PACKAGE" />
-      <package value="github.com/dmedinao1/go-web-practica/internal" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTest_transactionService_SaveTransaction\E$" />
+      <pattern value="^\QTest_Update_OK\E$" />
       <method v="2" />
     </configuration>
     <configuration name="go test github.com/dmedinao1/go-web-practica/internal" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -126,13 +113,24 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
+    <configuration name="go test github.com/dmedinao1/go-web-practica/tests" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="backpack-bcgow6-daniel-medina" />
+      <working_directory value="$PROJECT_DIR$/21-10-Testing/TT/tests" />
+      <root_directory value="$PROJECT_DIR$/21-10-Testing/TT" />
+      <kind value="PACKAGE" />
+      <package value="github.com/dmedinao1/go-web-practica/tests" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.go test github.com/dmedinao1/go-web-practica/tests" />
+        <item itemvalue="Go Test.Test_Delete_OK in github.com/dmedinao1/go-web-practica/tests" />
+        <item itemvalue="Go Test.Test_Update_OK in github.com/dmedinao1/go-web-practica/tests" />
+        <item itemvalue="Go Build.go build github.com/dmedinao1/go-web-practica/cmd" />
         <item itemvalue="Go Test.go test github.com/dmedinao1/go-web-practica/internal" />
-        <item itemvalue="Go Test.Test_transactionService_ReplaceTransaction in github.com/dmedinao1/go-web-practica/internal" />
-        <item itemvalue="Go Test.Test_transactionService_SaveTransaction in github.com/dmedinao1/go-web-practica/internal" />
-        <item itemvalue="Go Test.Test_transactionService_FindAll in github.com/dmedinao1/go-web-practica/internal" />
-        <item itemvalue="Go Test.Test_transactionService_DeleteById in github.com/dmedinao1/go-web-practica/internal" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +153,8 @@
     <MESSAGE value="19-10-2022-TM" />
     <MESSAGE value="19-10-2022-TT" />
     <MESSAGE value="20-10-2022-TM" />
-    <option name="LAST_COMMIT_MESSAGE" value="20-10-2022-TM" />
+    <MESSAGE value="21-10-2022-TM" />
+    <option name="LAST_COMMIT_MESSAGE" value="21-10-2022-TM" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
