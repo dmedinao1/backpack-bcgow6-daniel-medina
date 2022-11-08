@@ -45,6 +45,11 @@ func (t transactionService) FindAll() ([]domain.Transaction, error) {
 	if err != nil {
 		return nil, ApiError{Code: http.StatusInternalServerError, ErrorMessage: "Error en la base de datos | " + err.Error()}
 	}
+
+	if transactions == nil {
+		return []domain.Transaction{}, nil
+	}
+
 	return transactions, nil
 }
 

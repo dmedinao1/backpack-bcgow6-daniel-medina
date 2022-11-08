@@ -3,13 +3,12 @@ package main
 import (
 	"github.com/dmedinao1/go-web-practica/docs"
 	"github.com/dmedinao1/go-web-practica/internal"
-	"github.com/dmedinao1/go-web-practica/pkg/store"
+	"github.com/dmedinao1/go-web-practica/pkg/db"
 	"github.com/dmedinao1/go-web-practica/server"
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
 	swaggerFiles "github.com/swaggo/files"
 	ginSwagger "github.com/swaggo/gin-swagger"
-	"os"
 )
 
 // @title Mercado libre bootcamp | Transacciones API
@@ -24,8 +23,14 @@ import (
 // @license.url   http://www.apache.org/licenses/LICENSE-2.0.html
 func main() {
 	_ = godotenv.Load()
-	appStore := store.New(store.FileType, os.Getenv("JSON_STORE_FILE"))
-	transactionRepository := internal.GetTransactionRepository(appStore)
+
+	dbConnection, err := db.GetDBConnection()
+
+	if err != nil {
+		panic(err)
+	}
+
+	transactionRepository := internal.GetTransactionDBRepository(dbConnection)
 	transactionService := internal.GetTransactionService(transactionRepository)
 	transactionHandlers := server.GetTransactionHandler(transactionService)
 
@@ -43,7 +48,7 @@ func main() {
 
 	app.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
 
-	err := app.Run()
+	err = app.Run()
 
 	if err != nil {
 		panic(err)

@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f2108b9-a23c-4837-b849-120b3e9814ca" name="Changes" comment="Desafío testing">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e732397f-cc88-47a8-b7c4-eecadea2ae76.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e732397f-cc88-47a8-b7c4-eecadea2ae76.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-11-DDBB/TM/.env" beforeDir="false" afterPath="$PROJECT_DIR$/08-11-DDBB/TM/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-11-DDBB/TM/cmd/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/08-11-DDBB/TM/cmd/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-11-DDBB/TM/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/08-11-DDBB/TM/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-11-DDBB/TM/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/08-11-DDBB/TM/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-11-DDBB/TM/internal/service.go" beforeDir="false" afterPath="$PROJECT_DIR$/08-11-DDBB/TM/internal/service.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,34 +42,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/danmedina/Documents/github/backpack-bcgow6-daniel-medina/21-10-Testing&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "/Users/danmedina/Documents/github/backpack-bcgow6-daniel-medina/08-11-DDBB/TM",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="GoMoveDeclarationDialog.RECENT_KEY">
       <recent name="$PROJECT_DIR$/21-10-Testing/TM/internal/mocks" />
       <recent name="$PROJECT_DIR$/21-10-Testing/TM/internal/domain" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/08-11-DDBB/TM" />
       <recent name="$PROJECT_DIR$/21-10-Testing" />
       <recent name="$PROJECT_DIR$/21-10-Testing/TM" />
       <recent name="$PROJECT_DIR$/20-10-Testing/TT" />
@@ -73,17 +82,14 @@
       <recent name="$PROJECT_DIR$/21-10-Testing/TM/test/internal" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.Test_service_GetAllBySeller in github.com/bootcamp-go/desafio-cierre-testing/internal/products">
-    <configuration name="Test_Delete_OK in github.com/dmedinao1/go-web-practica/tests" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build github.com/dmedinao1/go-web-practica/cmd">
+    <configuration name="go build github.com/dmedinao1/go-web-practica/cmd" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="backpack-bcgow6-daniel-medina" />
-      <working_directory value="$PROJECT_DIR$/21-10-Testing/TT/tests" />
-      <root_directory value="$PROJECT_DIR$/21-10-Testing/TT" />
+      <working_directory value="$PROJECT_DIR$/08-11-DDBB/TM" />
       <kind value="PACKAGE" />
-      <package value="github.com/dmedinao1/go-web-practica/tests" />
+      <package value="github.com/dmedinao1/go-web-practica/cmd" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTest_Delete_OK\E$" />
+      <filePath value="$PROJECT_DIR$/08-11-DDBB/TM/cmd/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="Test_GetAll_BadRequest in github.com/bootcamp-go/desafio-cierre-testing/internal/products" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -134,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/dmedinao1/go-web-practica/cmd" />
         <item itemvalue="Go Test.Test_service_GetAllBySeller in github.com/bootcamp-go/desafio-cierre-testing/internal/products" />
         <item itemvalue="Go Test.go test github.com/bootcamp-go/desafio-cierre-testing/internal/products" />
         <item itemvalue="Go Test.Test_GetAll_BadRequest in github.com/bootcamp-go/desafio-cierre-testing/internal/products" />
         <item itemvalue="Go Test.go test github.com/dmedinao1/go-web-practica/tests" />
-        <item itemvalue="Go Test.Test_Delete_OK in github.com/dmedinao1/go-web-practica/tests" />
       </list>
     </recent_temporary>
   </component>
@@ -168,5 +174,16 @@
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/08-11-DDBB/TM/internal/service.go</url>
+          <line>56</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

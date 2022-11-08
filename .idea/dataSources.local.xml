@@ -14,6 +14,7 @@
           <node kind="schema">
             <name qname="movies_db" />
             <name qname="information_schema" />
+            <name qname="sandbox" />
           </node>
         </introspection-scope>
       </schema-mapping>

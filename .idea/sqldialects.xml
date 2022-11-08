@@ -2,5 +2,6 @@
 <project version="4">
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/01-11-DDBB/TT/movies-queries.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/08-11-DDBB/TM/internal/repositoryDB.go" dialect="MySQL" />
   </component>
 </project>
