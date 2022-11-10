@@ -142,5 +142,5 @@ func (r *repository) DeleteById(id int) error {
 }
 
 func scanTransaction(toScan *domain.Transaction, rows *sql.Rows) error {
-	return rows.Scan(&toScan.Id, &toScan.TransactionCode, &toScan.Currency, &toScan.Quantity, &toScan.Transmitter, toScan.TransactionDate)
+	return rows.Scan(&toScan.Id, &toScan.TransactionCode, &toScan.Currency, &toScan.Quantity, &toScan.Transmitter, &toScan.TransactionDate)
 }

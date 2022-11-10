@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f2108b9-a23c-4837-b849-120b3e9814ca" name="Changes" comment="Desafío testing">
-      <change beforePath="$PROJECT_DIR$/09-11-DDBB/TM/internal/count.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-11-DDBB/TM/internal/coverage.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-11-DDBB/TM/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/09-11-DDBB/TM/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-11-DDBB/TM/internal/repositoryDB.go" beforeDir="false" afterPath="$PROJECT_DIR$/09-11-DDBB/TM/internal/repositoryDB.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-11-DDBB/TM/internal/repositoryDB_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/09-11-DDBB/TM/internal/repositoryDB_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,11 +67,11 @@
       <recent name="$PROJECT_DIR$/21-10-Testing/TM/internal/domain" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/09-11-DDBB/TM" />
       <recent name="$PROJECT_DIR$/08-11-DDBB/TM" />
       <recent name="$PROJECT_DIR$/21-10-Testing" />
       <recent name="$PROJECT_DIR$/21-10-Testing/TM" />
       <recent name="$PROJECT_DIR$/20-10-Testing/TT" />
-      <recent name="$PROJECT_DIR$/20-10-Testing/TM" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -75,7 +79,7 @@
       <recent name="$PROJECT_DIR$/21-10-Testing/TM/test/internal" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/dmedinao1/go-web-practica/cmd">
+  <component name="RunManager" selected="Go Test.Test_repository_Save in github.com/dmedinao1/go-web-practica/internal">
     <configuration name="go build github.com/dmedinao1/go-web-practica/cmd" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="backpack-bcgow6-daniel-medina" />
       <working_directory value="$PROJECT_DIR$/08-11-DDBB/TM" />
@@ -85,16 +89,28 @@
       <filePath value="$PROJECT_DIR$/08-11-DDBB/TM/cmd/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_GetAll_BadRequest in github.com/bootcamp-go/desafio-cierre-testing/internal/products" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_repository_FindAll in github.com/dmedinao1/go-web-practica/internal" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="backpack-bcgow6-daniel-medina" />
-      <working_directory value="$PROJECT_DIR$/desafio-cierre-testing-main/internal/products" />
-      <root_directory value="$PROJECT_DIR$/desafio-cierre-testing-main" />
+      <working_directory value="$PROJECT_DIR$/09-11-DDBB/TM/internal" />
+      <root_directory value="$PROJECT_DIR$/09-11-DDBB/TM" />
       <kind value="PACKAGE" />
-      <package value="github.com/bootcamp-go/desafio-cierre-testing/internal/products" />
+      <package value="github.com/dmedinao1/go-web-practica/internal" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_GetAll_BadRequest\E$" />
+      <pattern value="^\QTest_repository_FindAll\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_repository_Save in github.com/dmedinao1/go-web-practica/internal" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="backpack-bcgow6-daniel-medina" />
+      <working_directory value="$PROJECT_DIR$/09-11-DDBB/TM/internal" />
+      <root_directory value="$PROJECT_DIR$/09-11-DDBB/TM" />
+      <kind value="PACKAGE" />
+      <package value="github.com/dmedinao1/go-web-practica/internal" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTest_repository_Save\E$" />
       <method v="2" />
     </configuration>
     <configuration name="Test_service_GetAllBySeller in github.com/bootcamp-go/desafio-cierre-testing/internal/products" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -109,23 +125,12 @@
       <pattern value="^\QTest_service_GetAllBySeller\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="go test github.com/bootcamp-go/desafio-cierre-testing/internal/products" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go test github.com/dmedinao1/go-web-practica/internal" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="backpack-bcgow6-daniel-medina" />
-      <working_directory value="$PROJECT_DIR$/desafio-cierre-testing-main/internal/products" />
-      <root_directory value="$PROJECT_DIR$/desafio-cierre-testing-main" />
+      <working_directory value="$PROJECT_DIR$/09-11-DDBB/TM/internal" />
+      <root_directory value="$PROJECT_DIR$/09-11-DDBB/TM" />
       <kind value="PACKAGE" />
-      <package value="github.com/bootcamp-go/desafio-cierre-testing/internal/products" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go test github.com/dmedinao1/go-web-practica/tests" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="backpack-bcgow6-daniel-medina" />
-      <working_directory value="$PROJECT_DIR$/21-10-Testing/TT/tests" />
-      <root_directory value="$PROJECT_DIR$/21-10-Testing/TT" />
-      <kind value="PACKAGE" />
-      <package value="github.com/dmedinao1/go-web-practica/tests" />
+      <package value="github.com/dmedinao1/go-web-practica/internal" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -133,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.Test_repository_Save in github.com/dmedinao1/go-web-practica/internal" />
+        <item itemvalue="Go Test.go test github.com/dmedinao1/go-web-practica/internal" />
+        <item itemvalue="Go Test.Test_repository_FindAll in github.com/dmedinao1/go-web-practica/internal" />
         <item itemvalue="Go Build.go build github.com/dmedinao1/go-web-practica/cmd" />
         <item itemvalue="Go Test.Test_service_GetAllBySeller in github.com/bootcamp-go/desafio-cierre-testing/internal/products" />
-        <item itemvalue="Go Test.go test github.com/bootcamp-go/desafio-cierre-testing/internal/products" />
-        <item itemvalue="Go Test.Test_GetAll_BadRequest in github.com/bootcamp-go/desafio-cierre-testing/internal/products" />
-        <item itemvalue="Go Test.go test github.com/dmedinao1/go-web-practica/tests" />
       </list>
     </recent_temporary>
   </component>
